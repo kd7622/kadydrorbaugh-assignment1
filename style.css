@@ -1,0 +1,38 @@
+h1 {
+    color:black;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    }
+h2 {
+    color: paleturquoise;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+h3 {
+    color:blueviolet;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, 
+        violet, indigo, blue, green, yellow, orange, red);
+    animation: rainbowAnimation 10s linear infinite;
+}
+
+@keyframes rainbowAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+
+    
